@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 JS: Calculando el total</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="grid">
+        <div class="card">
+            <div class="head">
+                <img src="assets/img/bong2.jpg" alt="bong">
+                <p class="producto">Bonglab - Nevis Rig 14 cms</p>
+            </div>
+            <div class="body">
+                
+                <div > <input type="text" class="cnt" placeholder="Cantidad"></div>
+                <div > <input type="text" class="color" placeholder="Color"></div>
+            </div>
+            <div class="footer">
+                <p>Precio: $ <span class="valor">20000</span></p>
+                
+    
+            </div>
+            <button onclick="
+            /*cantidad*/
+            q=document.querySelector('.cnt')
+            qq=Number(q)
+            qf=document.querySelector('.cantidad')
+            qf.innerHTML=q.value
+            
+            
+            vlr=Number(document.querySelector('#precio'))
+            /*total*/
+            ttl=document.querySelector('.total')
+            ttl.innerHTML=20000*Number(q.value)
+            /*Intento que no funcionó*/
+            /*calculo=document.querySelector('.valor')
+            ttl.innerHTML=Number(calculo)*Number(q.value)*/
+            /*color*/
+            clr=document.querySelector('.bgcolor')
+            cf=document.querySelector('.color')
+            clr.style.backgroundColor=cf.value
+
+          
+            
+            
+            
+
+            
+            ">Calcular Total</button>
+    
+        </div>
+        
+        <div class="calculo">
+            <p class="tf"> Total: $ <span class="total">0</span></p>
+            <p >Cantidad: <span class="cantidad">0</span> </p>
+            <p class="colorfin">Color: <span class="bgcolor"> </span></p>
+    
+        </div>
+    </div>
+    
+</body>
+</html>

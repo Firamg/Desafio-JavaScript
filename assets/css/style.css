@@ -1,0 +1,76 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 30em;
+    align-items: center;
+    padding: 10em;
+}
+
+img{
+    width: 70%;
+    border-radius: 10%;
+    border: #0e4850 solid 1px;
+}
+
+.bgcolor{
+    
+    padding: 0.4em;
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border:#053c43 solid 1px
+}
+
+.card{
+    background-color: #dee3e7;
+    padding: 2em;
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+    border: 1px #174c57 solid;
+   
+}
+
+.producto{
+    color:#053c43;
+    font-weight: bold;
+    font-size: 120%;
+}
+.body{
+    text-align: left;
+    
+}
+
+.footer{
+    text-align: left;
+    padding-left: 1em;
+}
+
+.cnt,.color{
+    background-color: white;
+    padding: 0.2em;
+    margin: 0.3em;
+    padding-left: 0.8em;
+    border-radius: 0.3em;
+    /*color: #667173;*/
+}
+
+button{
+    padding: 0.3em;
+    border: #053c43 solid 2px;
+    border-radius: 8%;
+    font-weight: bold;
+    background-color: #174c57;
+    color: white;
+}
+
+.calculo{
+    margin: 3em;
+    width: 100%;
+    font-size: 700;
+}
+
+
